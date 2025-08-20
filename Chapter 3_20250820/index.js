@@ -250,16 +250,119 @@ const myHouseAddress = "Mohammadia Housing Ltd.";
 console.log(myHouseAddress);
 
 // 5.
-const super = 24;
-console.log(super);
+// const super = 24;
+// console.log(super);
 
-// 6.
-const class = 17;
-console.log(class);
+// // 6.
+// const class = 17;
+// console.log(class);
 
-// 7.
-const 2ndPosition = 'Imrul Kayes'; //Correct form: position2nd or positionSecond 
-console.log(2ndPosition);
+// // 7.
+// const 2ndPosition = 'Imrul Kayes'; //Correct form: position2nd or positionSecond 
+// console.log(2ndPosition);
+
+
+
+// Parse Integer 
+const sugar = parseInt('20');
+console.log(sugar);
+
+// const age2 = parseInt('50.455');
+// const weight = parseInt('9.452twenty');
+// const address1 = parseInt('mohammadpur20/2');
+// console.log(age2,weight,address1);
+
+const age2 = parseFloat('50.455');
+const weight = parseFloat('9.452twenty');
+const address1 = parseFloat('mohammadpur20/2');
+console.log(age2,weight,address1);
+
+// toFixed() 
+const first = 12.13829;
+const second = 37.39238;
+const total = first+second;
+const totalNumber = parseFloat(total.toFixed(2));
+console.log(typeof totalNumber);
+
+// Practice: Page: 64
+// 1
+const firstOne = '20';
+const firstOneInNumber = parseInt(firstOne);
+const final = firstOneInNumber + 10;
+console.log(firstOneInNumber,final);
+
+// 2
+const myPie = 3.14159;
+const myPieInteger = parseInt(myPie);
+console.log(myPieInteger);
+
+// 3
+const premikBoy = '420';
+const premikBoyNumber = parseInt(premikBoy);
+console.log(premikBoy);
+
+// 4
+const theFirstNumber = 3.456;
+const theSecondNumber = 2.789;
+const theTotalNumber = theFirstNumber+theSecondNumber;
+const theTotalNumberToFixedIn2Decimal = parseFloat(theTotalNumber.toFixed(2));
+console.log(theTotalNumber,theTotalNumberToFixedIn2Decimal);
+
+// 5
+const firstNumber5 = '56.78';
+const secondNumber5 = '12.34';
+const total5 = firstNumber5+secondNumber5;
+const total5InFloatingNumber = parseFloat(total5);
+console.log(total5,total5InFloatingNumber);
+console.log(typeof total5,typeof total5InFloatingNumber);
+
+// 6
+const inMyPossession6A = '10.5678';
+const inMyPossession6B = '5.4321';
+const totalPossession = inMyPossession6A+inMyPossession6B;
+const totalPossessionInNumber = parseFloat(totalPossession);
+const totalPossessionInNumberToFixedToOnePlace = totalPossessionInNumber.toFixed(1);
+const finalPossessionFloatingNumber = parseFloat(totalPossessionInNumberToFixedToOnePlace);
+
+console.log(totalPossession, typeof totalPossession);
+console.log(totalPossessionInNumber,typeof totalPossessionInNumber);
+console.log(totalPossessionInNumberToFixedToOnePlace,typeof totalPossessionInNumberToFixedToOnePlace);
+console.log(finalPossessionFloatingNumber,typeof finalPossessionFloatingNumber);
+
+// 7 toFixed(3)
+const lastMath7 = '42.45689754';
+const lastMath7Number = parseFloat(lastMath7);
+const lastMath7In3DecimalPlace = lastMath7Number.toFixed(3);
+const finalNumber = parseFloat(lastMath7In3DecimalPlace);
+console.log(lastMath7In3DecimalPlace, typeof lastMath7In3DecimalPlace);
+console.log(finalNumber, typeof finalNumber);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
