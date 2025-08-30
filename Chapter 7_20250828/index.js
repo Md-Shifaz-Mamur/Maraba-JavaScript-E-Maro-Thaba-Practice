@@ -194,17 +194,136 @@ for (let i = 150; i <= 170; i++) {
 
 // 2
 let rollSum2 = 0;
-for (let i = 31; i <= 58; i++){
+for (let i = 31; i <= 58; i++) {
     rollSum2 = rollSum2 + i;
 }
 console.log('Summation of Roll Numbers from 31 to 58 is: ', rollSum2);
 
 // 3
 let numSum2 = 0;
-for (let i = 25; i <= 75; i++){
+for (let i = 25; i <= 75; i++) {
     numSum2 = numSum2 + i;
 }
 console.log('Sum: ', numSum2);
 
 
+// Even - Odds
+for (let i = 0; i <= 20; i++) {
+    if (i % 2 != 1) {
+        console.log(i);
+    }
+}
 
+// without condition 
+for (let i = 2; i <= 20; i += 2) {
+    console.log(i);
+}
+
+for (let i = 5; i <= 30; i += 1) {
+    if (i % 5 == 0) {
+        console.log(i, 'is divided by 5');
+    }
+}
+
+// Practice: Page 119 
+// 1
+for (let i = 20; i <= 50; i++) {
+    if (i % 7 == 0) {
+        console.log(i, 'is divided by 7');
+    }
+}
+
+// 2
+for (let i = 40; i <= 80; i++) {
+    if (i % 5 == 0 && i % 7 == 0) {
+        console.log(i, 'is divided by both 5 and 7');
+    }
+}
+
+
+// // 3
+let sumNow = 0;
+for (let i = 1; i <= 40; i++) {
+    if (i % 13 == 0) {
+        console.log(i);
+        sumNow = sumNow + i;
+    }
+}
+console.log('Sum: ', sumNow);
+
+// 4
+for (let i = 1; i <= 50; i += 4) {
+    console.log("Loop variable's value increases by 4: ", i);
+}
+
+// 5
+for (let i = 0; i <= 100; i++) {
+    if (i % 9 == 0 && i % 6 == 0) {
+        console.log(i, 'is divided by both 6 and 9');
+    }
+}
+
+
+// 6
+let sum6 = 0;
+for (let i = 1; i <= 50; i++) {
+    if (i % 3 == 0 && i % 4 == 0) {
+        console.log(i, 'is divided by both 3 and 4');
+        sum6 = sum6 + i;
+
+    }
+}
+console.log(sum6, 'is the summation of the numbers divided by 3 and 4.')
+
+// Practice: Page 122 
+// 1
+for (let i = 1; i <= 30; i++) {
+    console.log(i);
+    if (i >= 15) {
+        break;
+    }
+}
+
+// 2
+for (let i = 1; i <= 40; i++) {
+    if (i % 7 == 0) {
+        continue;
+    }
+    console.log("Factors of 7 are Skipped: ", i)
+}
+
+// 3
+for (let i = 1; i <= 15; i++) {
+    if (i == 9) {
+        continue;
+    }
+    console.log(i);
+}
+
+// 4
+for (let i = 1; i <= 20; i++) {
+    if (i == 12) {
+        continue;
+    }
+    console.log(i);
+}
+
+// 5
+for (let i = 1; i <= 25; i++) {
+    if (i % 3 == 0) {
+        console.log("Factor of 3 skipped");
+        continue;
+    }
+    console.log(i);
+}
+
+// 6
+console.log('Break when factor of 10 appears between 91 to 120');
+for (let i = 91; i <= 120; i++) {
+    console.log(i);
+    if (i % 10 == 0) {
+        break;
+    }
+}
+
+                          /*Chapter 7 Closed*/ 
